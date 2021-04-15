@@ -12,5 +12,7 @@ phases:
 artifacts:
   files:
     - build/libs/hello-sample-0.0.1-SNAPSHOT.jar
+    - scripts/stop.sh
+    - scripts/start.sh
     - appspec.yml
   discard-paths: yes
