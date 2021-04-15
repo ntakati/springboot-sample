@@ -8,7 +8,7 @@ files:
   - source: ./start.sh
     destination: /tmp  
 hooks:
-  ApplicationStop:
-    - location: stop.sh
+#  ApplicationStop:
+#    - location: stop.sh
   ApplicationStart:
     - location: start.sh
