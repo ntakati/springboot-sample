@@ -3,9 +3,9 @@ os: linux
 files:
   - source: ./hello-sample-0.0.1-SNAPSHOT.jar
     destination: /tmp
-  - source: ./stop.sh
+  - source: ./scripts/stop.sh
     destination: /tmp
-  - source: ./start.sh
+  - source: ./scripts/start.sh
     destination: /tmp  
 hooks:
   ApplicationStop:
