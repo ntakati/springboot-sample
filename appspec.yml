@@ -3,12 +3,12 @@ os: linux
 files:
   - source: ./hello-sample-0.0.1-SNAPSHOT.jar
     destination: /tmp
-  - source: ./script/stop.sh
-    destination: /tmp
+#  - source: ./script/stop.sh
+#    destination: /tmp
   - source: ./script/starrt.sh
     destination: /tmp
 hooks:
-  ApplicationStop:
-    - location: /tmp/stop.sh
+#  ApplicationStop:
+#    - location: stop.sh
   ApplicationStart:
-    - location: /tmp/start.sh
+    - location: start.sh
