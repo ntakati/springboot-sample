@@ -10,5 +10,6 @@ files:
 hooks:
   ApplicationStop:
   - location: ./stop.sh
+    runas: root
   ApplicationStart:
   - location: ./start.sh
