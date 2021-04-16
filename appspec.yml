@@ -5,6 +5,6 @@ files:
     destination: /tmp
 hooks:
   ApplicationStop:
-    - location: /tmp/stop.sh
+    - location: ./scripts/stop.sh
   ApplicationStart:
-    - location: /tmp/start.sh
+    - location: ./scripts/start.sh
